@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/ll_two"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/textView_Heading_two"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Screen Two"
+        android:background="#EF6C00"
+        android:layout_marginTop="0dp"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:textSize="30dp"/>
+    <ListView
+        android:id="@+id/listView_two"
+        android:layout_gravity="center_vertical|top"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:padding="1dp">
+
+    </ListView>
+
+
+    <EditText
+        android:id="@+id/editText_two"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:hint="Enter Message"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/btn_two"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="0dp"
+        android:background="#AD1457"
+        android:onClick="Send"
+        android:text="Send"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+</LinearLayout>
+
+
+<!--
+<TextView
+        android:id="@+id/txtView_two"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textSize="25dp"
+        android:textStyle="normal" />
+-->

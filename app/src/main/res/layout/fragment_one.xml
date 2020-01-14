@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/ll_one"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/textView_Heading_one"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Screen One"
+        android:textColor="#000"
+        android:background="#4527A0"
+        android:layout_marginTop="0dp"
+        android:textStyle="bold"
+        android:textSize="30dp"/>
+    <ListView
+        android:id="@+id/listView_one"
+        android:layout_gravity="center_vertical|top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="1dp"
+        android:layout_weight="1">
+
+    </ListView>
+
+
+    <EditText
+        android:id="@+id/editText_one"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:hint="Enter Message"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/btn_one"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="0dp"
+        android:background="#EF6C00"
+        android:onClick="Send"
+        android:text="Send"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+</LinearLayout>
+<!--
+ <?xml version="1.0" encoding="utf-8"?>
+<TextView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/txtView_items_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+    android:textAppearance="?android:attr/textAppearanceListItemSmall"
+    android:gravity="center_vertical"
+    android:paddingStart="?android:attr/listPreferredItemPaddingStart"
+    android:paddingEnd="?android:attr/listPreferredItemPaddingEnd"
+    android:minHeight="?android:attr/listPreferredItemHeightSmall" />
+
+ -->
+
+
+
